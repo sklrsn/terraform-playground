@@ -15,7 +15,7 @@ variable "openstack_auth_url" {
 
 variable "openstack_tenant_name" {
     description = "The name of the Tenant."
-    default  = "my_tenant"
+    default  = "admin"
 }
 
 variable "openstack_keypair_name" {
