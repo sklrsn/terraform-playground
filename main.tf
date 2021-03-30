@@ -8,4 +8,7 @@ resource "openstack_compute_instance_v2" "basic" {
   network {
     name = var.tenant_network   
   }
+
+  user_data = file("init.sh")
+  
 }
