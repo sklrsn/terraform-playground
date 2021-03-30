@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    openstack = {
+      source  = "terraform-provider-openstack/openstack"
+    }
+  }
+}
+
 provider "openstack" {
   user_name = "${var.openstack_user_name}"
   tenant_name = "${var.openstack_tenant_name}"

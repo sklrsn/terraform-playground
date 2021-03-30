@@ -20,7 +20,7 @@ variable "openstack_tenant_name" {
 
 variable "openstack_keypair_name" {
     description = "The keypair to be used."
-    default  = "my_keypair"
+    default  = "admin"
 }
 
 variable "tenant_network" {
