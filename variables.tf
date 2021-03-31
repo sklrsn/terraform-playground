@@ -25,5 +25,5 @@ variable "openstack_keypair_name" {
 
 variable "tenant_network" {
     description = "The network to be used."
-    default  = "test"
+    default  = "external"
 }
